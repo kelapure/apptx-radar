@@ -5,6 +5,7 @@ const path = require('path');
 const buildPath = path.join(__dirname, './dist');
 const args = require('yargs').argv;
 
+
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
@@ -77,7 +78,7 @@ module.exports = {
     devServer: {
         contentBase: buildPath,
         host: '0.0.0.0',
-        port: 8080
+        disableHostCheck: true,
+        port: (process.env.PORT || 8080)
     }
 };
-
