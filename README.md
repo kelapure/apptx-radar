@@ -1,10 +1,13 @@
-[![Build Status](https://travis-ci.org/thoughtworks/build-your-own-radar.svg?branch=master)](https://travis-ci.org/thoughtworks/build-your-own-radar)
+# apptx-radar
+Radar For App Transformation
+
+We work with customers to enable digital transformation and affect change by implementing the three pillars of devops, people , process and technology. In concrete terms we help customers migrate applications and workloads to Pivotal Cloud Foundry.  To give you an idea of our tools, languages, frameworks and practices I have created a thoughtworks inspired technology radar for application transformation.
 
 A library that generates an interactive radar, inspired by [thoughtworks.com/radar](http://thoughtworks.com/radar).
 
 ## Demo
 
-You can see this in action at https://radar.thoughtworks.com. If you plug in [this data](https://docs.google.com/spreadsheets/d/1YXkrgV7Y6zShiPeyw4Y5_19QOfu5I6CyH5sGnbkEyiI/) you'll see [this visualization](https://radar.thoughtworks.com/?sheetId=1YXkrgV7Y6zShiPeyw4Y5_19QOfu5I6CyH5sGnbkEyiI). 
+You can see this in action at http://apptx.cfapps.io/. If you plug in [this data](https://docs.google.com/spreadsheets/d/1Op0bMQ_BdgvuAL1qxrmVypP2RUED1zXxwRE8tvBGeY8/edit#gid=0) you'll see [this visualization](bit.ly/apptx-radar).
 
 ## How To Use
 
@@ -27,7 +30,7 @@ Create a Google Sheet. Give it at least the below column headers, and put in the
 
 * In Google sheets, go to 'File', choose 'Publish to the web...' and then click 'Publish'.
 * Close the 'Publish to the web' dialog.
-* Copy the URL of your editable sheet from the browser (Don't worry, this does not share the editable version). 
+* Copy the URL of your editable sheet from the browser (Don't worry, this does not share the editable version).
 
 The URL will be similar to [https://docs.google.com/spreadsheets/d/1waDG0_W3-yNiAaUfxcZhTKvl7AUCgXwQw8mdPjCz86U/edit](https://docs.google.com/spreadsheets/d/1waDG0_W3-yNiAaUfxcZhTKvl7AUCgXwQw8mdPjCz86U/edit). In theory we are only interested in the part between '/d/' and '/edit' but you can use the whole URL if you want.
 
@@ -51,7 +54,7 @@ The application uses [webpack](https://webpack.github.io/) to package dependenci
 
 All tasks are defined in `package.json`.
 
-Pull requests are welcome; please write tests whenever possible. 
+Pull requests are welcome; please write tests whenever possible.
 Make sure you have nodejs installed.
 
 - `git clone git@github.com:thoughtworks/build-your-own-radar.git`
